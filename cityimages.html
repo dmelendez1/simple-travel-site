@@ -9,13 +9,15 @@
         /* Stylecontainer */
         .image-container {
             display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
+            align-items: center;
+            justify-content: space-between;
         }
 
         /*  */
         .city-image {
             margin: 10px;
+            flex-grow: 1;
+            max-width: 100%;
         }
     </style>
 
@@ -23,11 +25,11 @@
 <body>
     <header>
         <div class="header">
-            <img src="logo" alt="Metropolis logo">
+            <img src="logo.jpg" alt="logo">
             <h1>Metropolis City</h1>
         </div>
     <ul class="navbar">
-        <li class="navitem"><a href="#">Home</a></li>
+        <li class="navitem"><a href="index.html">Home</a></li>
         <li class="navitem"><a href="#">About</a></li>
         <li class="navitem"><a href="#">Services</a></li>
         <li class="navitem"><a href="#">Contact</a></li>

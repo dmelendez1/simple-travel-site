@@ -29,6 +29,12 @@ li.navitem a:hover {
     text-align: center;
     
 }
+.header img{
+    width: 75px;
+    height: 75px;
+    margin-right: 30px;
+
+}
 
 .header h1 {
     color: white;
