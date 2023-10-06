@@ -35,16 +35,13 @@ li.navitem a:hover {
     font-size: 60px;
     font-family: verdana;
 }
-
-/* main content */
-.container {
-    padding: 20px;
-}
+ 
 
 /* the table */
 table {
     border-collapse: collapse;
     width: 100%;
+    margin-top: 20px; /* spacebetween the header and table */
 }
 
 th, td {
@@ -56,4 +53,14 @@ th, td {
 th {
     background-color: #333;
     color: white;
+}
+
+/*  */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Hover */
+tr:hover {
+    background-color: #ddd;
 }
