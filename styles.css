@@ -1,43 +1,47 @@
-.header {
-    background-color: red;
-    padding: 20px;
-    text-align: center;
-}
-
-.header h1 {
-    color: white;
-    font-size: 36px
-ul;navbar {
-
+/* navigation bar */
+ul.navbar {
     list-style-type: none;
-    background-color: #333;
+    background-color: blue;
     overflow: hidden;
-    text-align: center;
+    text-align: center; /* Center text */
 }
 
 li.navitem {
-    margin-right: 20px;
-    display: inline-block;
+    display: inline-block; /*list items inline */
+    margin-right: 20px; /* spacing between items */
 }
 
 li.navitem a {
-    display: block;
     color: white;
-    text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
+    padding: 14px 16px;
+    text-align: center;
 }
 
 li.navitem a:hover {
     background-color: #555;
 }
 
-/* Style the main content */
+/*  main header */
+.header {
+    background-color: red;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.header h1 {
+    color: white;
+    font-size: 60px;
+    font-family: verdana;
+}
+
+/* main content */
 .container {
     padding: 20px;
 }
 
-/* Style the table */
+/* the table */
 table {
     border-collapse: collapse;
     width: 100%;
@@ -52,5 +56,4 @@ th, td {
 th {
     background-color: #333;
     color: white;
-}
 }
