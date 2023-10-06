@@ -1,0 +1,55 @@
+.header {
+    background-color: red;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    color: white;
+    font-size: 36px
+ul.navbar {
+
+    list-style-type: none;
+    background-color: #333;
+    overflow: hidden;
+    text-align: center;
+}
+
+li.navitem {
+    margin-right: 20px;
+    display: inline-block;
+}
+
+li.navitem a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.navitem a:hover {
+    background-color: #555;
+}
+
+/* Style the main content */
+.container {
+    padding: 20px;
+}
+
+/* Style the table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
